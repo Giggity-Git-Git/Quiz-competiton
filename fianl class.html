@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/022/496/051/non_2x/quiz-icon-set-interview-illustration-sign-collection-debriefing-symbol-or-logo-vector.jpg" type="image/x-icon">
+    <title>Quiz Competition</title>
+    <style>
+        li {
+            display: inline;
+
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            
+        }
+       a:hover{
+color: mediumslateblue;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+       }
+
+        img {
+            width: 350px;
+            height: 350px;
+            padding: 20px;
+        }
+
+        table {
+            text-align: center;
+            border-radius: 4px;
+        }
+        body {
+            
+           border: solid 5px navy;
+            border-radius: 4px;
+
+         color: rgb(67, 49, 77);
+         background-color: blanchedalmond;
+        } 
+        p{
+            border: solid 5px navy;
+            border-radius: 4px;
+            background-color: rgb(156, 229, 138);
+        }
+       button{
+border: 5px solid navajowhite;
+border-radius: 4px;
+background-color: rgb(156, 229, 138);
+       }
+    </style>
+</head>
+
+<body onload="thefunction()">
+    <center>
+       
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="science.html">Science Quiz</a></li>
+                <li><a href="matht.html">Math quiz</a></li>
+                <li><a href="english.html">English Quiz</a></li>
+                <li>
+                    <a href="https://www.studiestoday.com/online-test/118/class-xii.html" target="_blank">Question bank</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <marquee><h1>Quiz Competition</h1></marquee>
+        <h1 id="demo1"></h1>
+
+        <table border="5">
+            <tr>
+                <td>
+                    <img src="https://th.bing.com/th/id/OIP.x9mrpNknukO-V_a5xtmK4wHaD4?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"
+                        alt="" srcset="">
+                </td>
+                <td>
+                    <img src="https://th.bing.com/th/id/OIP.Dun1P3Yyn1w615-DNKNEWgHaD4?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"
+                        alt="" srcset="">
+                </td>
+                <td>
+                    <img src="https://th.bing.com/th/id/OIP.Ba_FQME1_-HN0NYvkyARhwHaEo?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"
+                        alt="" sizes="" srcset="">
+                </td>
+            </tr>
+            <tr>
+                <td><cite>
+                        <p>Science is a systematic discipline that builds and organises knowledge in the form of
+                            testable hypotheses and predictions about the universe. Modern science is typically
+                            divided into two - or three - major branches: the natural sciences, which study the
+                            physical world, and the social sciences, which study individuals and societies. While
+                            referred to as the formal sciences, the study of logic, mathematics, and theoretical
+                            computer science are typically regarded as separate because they rely on deductive reasoning
+                            instead of the scientific method as their main methodology. Meanwhile, applied
+                            sciences are disciplines that use scientific knowledge for practical purposes, such as
+                            engineering and medicine.</p>
+                    </cite></td>
+                <td>
+                    <cite>
+                        <p>Mathematics is a field of study that discovers and organizes methods, theories and theorems
+                            that are developed and proved for the needs of empirical sciences and mathematics itself.
+                            There are many areas of mathematics, which include number theory (the study of numbers),
+                            algebra (the study of formulas and related structures), geometry (the study of shapes and
+                            spaces that contain them), analysis (the study of continuous changes), and set theory
+                            (presently used as a foundation for all mathematics).</p>
+                    </cite>
+                </td>
+                <td>
+                    <cite>
+                        <p>English is a West Germanic language that developed in early medieval England and has since
+                            become a global lingua franca. The namesake of the language is the Angles, one of
+                            the Germanic peoples that migrated to Britain after its Roman occupiers left. English is the
+                            most spoken language in the world, primarily due to the global influences of the former
+                            British Empire (succeeded by the Commonwealth of Nations) and the United States.</p>
+                    </cite>
+                </td>
+            </tr>
+            <tr>
+                <td><button><a href="science.html">Science</a></button></td>
+                <td><button><a href="matht.html">Math</a></button></td>
+                <td><button><a href="english.html">English</a></button></td>
+            </tr>
+        </table>
+    </center>
+    <footer &copy;>
+Shivoy tech learning
+</footer>
+    <script>
+        function thefunction() {
+            var x = prompt("Please enter your name")
+            document.getElementById("demo1").innerHTML = "Welcome " + x + ", You have been shortlisted for a quiz."
+
+        }
+    </script>
+
+</body>
+
+</html>

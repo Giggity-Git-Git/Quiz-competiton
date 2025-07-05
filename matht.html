@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/022/496/051/non_2x/quiz-icon-set-interview-illustration-sign-collection-debriefing-symbol-or-logo-vector.jpg" type="image/x-icon">
+    <title>Quiz Competition</title>
+    <style>
+        body {
+            background-color: black;
+            color: bisque
+        }
+
+        li {
+            display: inline;
+
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: beige
+        }
+
+        a:hover {
+            font-size: 28px;
+            color: blue;
+        }
+
+        nav {
+            background-color: black;
+
+        }
+
+        div {
+            background-color: beige;
+            color: black;
+            border: 4px blue solid;
+            border-radius: 5px;
+            margin: 30px;
+        }
+
+
+        button {
+            background-color: black;
+            color: bisque;
+            width: 95px;
+            height: 35px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 20px
+        }
+
+        button:hover {
+            background-color: blue;
+            width: 105px;
+            height: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <nav>
+            <ul>
+                <li>
+                    <a href="fianl class.html">Home</a>
+                </li>
+                <li><a href="science.html">Science Quiz</a></li>
+                <li><a href="matht.html">Math quiz</a></li>
+                <li><a href="english.html">English Quiz</a></li>
+                <li>
+                    <a href="https://www.studiestoday.com/online-test/118/class-xii.html" target="_blank">Question bank</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <div>
+
+            <marquee><h1>Math quiz</h1></marquee>
+
+            <p>Welcome to the math quiz</p>
+        </div>
+        <div>
+            <h2>1. What is 20+5?</h2>
+            <button onclick="right()">25</button>
+            <button onclick="wrong()">250</button>
+            <br>
+        </div>
+        <div>
+            <h2>
+                2. How long will it take for four large pumps and four small pumps to fill a pool? Two large pumps and
+                one
+                small pump can fill a pool in four hours, as can one large pump and three small pumps.
+            </h2>
+            <button onclick="right()">5 hrs</button>
+            <button onclick="wrong()">1 hr 40 mins</button>
+        </div>
+        <div>
+            <h2>3. In an exam with three parts (A: 2/3, B: 6/8, C: all), how many total choices does the student have?
+        </h2>
+            <button onclick="right()">84</button>
+            <button onclick="wrong()">62</button>    
+        </div>
+<div>
+    <h2>4. Given the parabola y = -x² + 4x + C  with vertex at point B and x-intercept at point C, find C such that the area of the inscribed right triangle ABC is 32 square units.</h2>
+     <button onclick="right()">12</button>
+     <button onclick="wrong()">621</button>   
+</div> 
+<div>
+    <h2>
+        5. The triangle bounded by the lines y = 0, y = 2x & y = -0.5 + k positive, is equal to 80 square units. Find k.
+    </h2>
+    <button onclick="right()">10</button>
+     <button onclick="wrong()">6634573</button>  
+</div>
+    </center>
+    <script>
+        function right() {
+            alert("Well done! You have answered correctly.")
+        }
+        function wrong() {
+            alert("You can do it next time.")
+        }
+    </script>
+</body>
+
+</html>

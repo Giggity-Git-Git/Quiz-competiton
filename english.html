@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/022/496/051/non_2x/quiz-icon-set-interview-illustration-sign-collection-debriefing-symbol-or-logo-vector.jpg" type="image/x-icon">
+    <title>Quiz Competition</title>
+    <style>
+        body {
+            background-color: royalblue;
+            color: deeppink;
+        }
+
+        li {
+            display: inline;
+
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color:lightseagreen
+        }
+
+        a:hover {
+            font-size: 28px;
+            color:darkviolet ;
+        }
+
+        nav {
+            background-color: royalblue;
+
+        }
+
+        div {
+            background-color: cyan;
+            color: mediumvioletred;
+            border: 4px crimson solid;
+            border-radius: 5px;
+            margin: 30px;
+        }
+
+
+        button {
+            background-color: rebeccapurple;
+            color: bisque;
+            width: 195px;
+            height: 35px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 20px
+        }
+
+        button:hover {
+            background-color: mediumaquamarine;
+            width: 105px;
+            height: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <nav>
+            <ul>
+                <li>
+                    <a href="fianl class.html">Home</a>
+                </li>
+                <li><a href="science.html">Science Quiz</a></li>
+                <li><a href="matht.html">Math quiz</a></li>
+                <li><a href="english.html">English Quiz</a></li>
+                <li>
+                    <a href="https://www.studiestoday.com/online-test/118/class-xii.html" target="_blank">Question bank</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <div>
+
+            <marquee><h1>English quiz</h1></marquee>
+
+            <p>Welcome to the English quiz</p>
+        </div>
+        <div>
+            <h2>1. What is Shakespear's most famous work?</h2>
+            <button onclick="right()">Romeo And Juliet</button>
+            <button onclick="wrong()">Hamlet</button>
+            <br>
+        </div>
+        <div>
+            <h2>
+                2. What is the opposite of the word “extrovert”?
+            </h2>
+            <button onclick="right()">Introvert</button>
+            <button onclick="wrong()">Extravert</button>
+        </div>
+        <div>
+            <h2>3. What is the opposite of Courage?
+        </h2>
+            <button onclick="right()">Fear</button>
+            <button onclick="wrong()">Suffering</button>    
+        </div>
+<div>
+    <h2>4. What is the plural form of the word “ox”?</h2>
+     <button onclick="right()">oxen</button>
+     <button onclick="wrong()">Oxes</button>   
+</div> 
+<div>
+    <h2>
+        5.  Who is the author of the novel “To Kill a Mockingbird”?
+    </h2>
+    <button onclick="right()">Harper Lee</button>
+     <button onclick="wrong()">Mr Miagyi</button>  
+</div>
+    </center>
+    <script>
+        function right() {
+            alert("Well done! You have answered correctly.")
+        }
+        function wrong() {
+            alert("You can do it next time.")
+        }
+    </script>
+</body>
+
+</html>

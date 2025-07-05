@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/022/496/051/non_2x/quiz-icon-set-interview-illustration-sign-collection-debriefing-symbol-or-logo-vector.jpg" type="image/x-icon">
+    <title>Quiz Competition</title>
+    <style>
+        body {
+            background-color: red;
+            color: navy;
+        }
+
+        li {
+            display: inline;
+
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: royalblue
+        }
+
+        a:hover {
+            font-size: 28px;
+            color: slateblue;
+        }
+
+        nav {
+            background-color: black;
+
+        }
+
+        div {
+            background-color: rebeccapurple;
+            color: black;
+            border: 4px midnightblue solid;
+            border-radius: 5px;
+            margin: 30px;
+        }
+
+
+        button {
+            background-color: black;
+            color: bisque;
+            width: 95px;
+            height: 35px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 20px
+        }
+
+        button:hover {
+            background-color: azure;
+            width: 105px;
+            height: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <nav>
+            <ul>
+                <li>
+                    <a href="fianl class.html">Home</a>
+                </li>
+                <li><a href="science.html">Science Quiz</a></li>
+                <li><a href="matht.html">Math quiz</a></li>
+                <li><a href="#">English Quiz</a></li>
+                <li>
+                    <a href="https://www.studiestoday.com/online-test/118/class-xii.html" target="_blank">Question bank</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <div>
+
+            <marquee><h1>Science quiz</h1></marquee>
+
+            <p>Welcome to the Science quiz.</p>
+        </div>
+        <div>
+            <h2>1. What is H20</h2>
+            <button onclick="right()">Water</button>
+            <button onclick="wrong()">Oxegen</button>
+            <br>
+        </div>
+        <div>
+            <h2>
+                2. Which Material is magnetic
+            </h2>
+            <button onclick="right()">Iron</button>
+            <button onclick="wrong()">Bricks</button>
+        </div>
+        <div>
+            <h2>3. What is the unit of force
+        </h2>
+            <button onclick="right()">Newtons</button>
+            <button onclick="wrong()">Area</button>    
+        </div>
+<div>
+    <h2>4. What is the formula for pressure</h2>
+     <button onclick="right()">F/A²</button>
+     <button onclick="wrong()">A/F²</button>   
+</div> 
+<div>
+    <h2>
+        5. What organ do we use to breathe?
+    </h2>
+    <button onclick="right()">The lungs</button>
+     <button onclick="wrong()">The mouth</button>  
+</div>
+    </center>
+    <script>
+        function right() {
+            alert("Well done! You have answered correctly.")
+        }
+        function wrong() {
+            alert("You can do it next time.")
+        }
+    </script>
+</body>
+
+</html>
